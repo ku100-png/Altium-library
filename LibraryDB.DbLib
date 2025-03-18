@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\Public\D
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,13 +19,16 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Connectors$
+LastFocusedTable=Capacitors$
 [Table1]
 SchemaName=
 TableName=Capacitors$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=111|Library Ref0=111|Footprint Ref0=111|Library Path0=147|Footprint Path0=147|Manufacturer0=93|Component Type0=111|Value0=52|ComponentLink1URL0=430|ComponentLink1Description0=170|Code SL0=64
 [Table2]
 SchemaName=
 TableName=Connectors$
@@ -34,19 +37,58 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=101|Library Path0=86|Footprint Path0=137|Manufacturer0=93|Component Type0=111|Value0=52|ComponentLink1URL0=440|ComponentLink1Description0=170|Code SL0=64
+BrowserOrder_Visible=Part Number0=87|Library Ref0=84|Footprint Ref0=101|Library Path0=120|Footprint Path0=137|Manufacturer0=101|Component Type0=111|Value0=52|ComponentLink1URL0=440|ComponentLink1Description0=170|Code SL0=64
 [Table3]
 SchemaName=
-TableName=Integrated Circuits (ICs)$
+TableName=F_Fuses$
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table4]
 SchemaName=
+TableName=Integrated Circuits (ICs)$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=120|Library Ref0=120|Footprint Ref0=154|Library Path0=156|Footprint Path0=156|Manufacturer0=120|Component Type0=127|Value0=52|ComponentLink1URL0=410|ComponentLink1Description0=170|Code SL0=64
+[Table5]
+SchemaName=
+TableName=L_Inductors$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=93|Manufacturer0=93|Component Type0=111|Library Ref0=93|Footprint Ref0=93|Library Path0=129|Footprint Path0=129|Value0=52|ComponentLink1URL0=439|ComponentLink1Description0=170|Code SL0=64
+[Table6]
+SchemaName=
 TableName=Resistors$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=96|Library Ref0=96|Footprint Ref0=92|Library Path0=132|Footprint Path0=129|Manufacturer0=93|Component Type0=111|Value0=52|ComponentLink1URL0=428|ComponentLink1Description0=170|Code SL0=64
+[Table7]
+SchemaName=
+TableName=Semiconductors$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Manufacturer0=104|Component Type0=111|Library Ref0=77|Footprint Ref0=150|Library Path0=105|Footprint Path0=186|Value0=52|ComponentLink1URL0=425|ComponentLink1Description0=170|Code SL0=64
+[Table8]
+SchemaName=
+TableName=T_Transformers$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Manufacturer0=93|Component Type0=111|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=98|Value0=52|ComponentLink1URL0=342|ComponentLink1Description0=170|Code SL0=64
 [FieldMap1]
 Options=FieldName=Capacitors$.Part Number|TableNameOnly=Capacitors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -68,22 +110,62 @@ Options=FieldName=Connectors$.Library Path|TableNameOnly=Connectors$|FieldNameOn
 [FieldMap10]
 Options=FieldName=Connectors$.Footprint Path|TableNameOnly=Connectors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Integrated Circuits (ICs)$.Part Number|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=F_Fuses$.Part Number|TableNameOnly=F_Fuses$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=Integrated Circuits (ICs)$.Library Ref|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=F_Fuses$.Library Ref|TableNameOnly=F_Fuses$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=Integrated Circuits (ICs)$.Footprint Ref|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=F_Fuses$.Footprint Ref|TableNameOnly=F_Fuses$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=Integrated Circuits (ICs)$.Library Path|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=F_Fuses$.Library Path|TableNameOnly=F_Fuses$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Integrated Circuits (ICs)$.Footprint Path|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=F_Fuses$.Footprint Path|TableNameOnly=F_Fuses$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Resistors$.Part Number|TableNameOnly=Resistors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated Circuits (ICs)$.Part Number|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Resistors$.Library Ref|TableNameOnly=Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated Circuits (ICs)$.Library Ref|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated Circuits (ICs)$.Footprint Ref|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Resistors$.Library Path|TableNameOnly=Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Integrated Circuits (ICs)$.Library Path|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
+Options=FieldName=Integrated Circuits (ICs)$.Footprint Path|TableNameOnly=Integrated Circuits (ICs)$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=L_Inductors$.Part Number|TableNameOnly=L_Inductors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=L_Inductors$.Library Ref|TableNameOnly=L_Inductors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=L_Inductors$.Footprint Ref|TableNameOnly=L_Inductors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=L_Inductors$.Library Path|TableNameOnly=L_Inductors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=L_Inductors$.Footprint Path|TableNameOnly=L_Inductors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Resistors$.Part Number|TableNameOnly=Resistors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Resistors$.Library Ref|TableNameOnly=Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Resistors$.Footprint Ref|TableNameOnly=Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Resistors$.Library Path|TableNameOnly=Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
 Options=FieldName=Resistors$.Footprint Path|TableNameOnly=Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=Semiconductors$.Part Number|TableNameOnly=Semiconductors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=Semiconductors$.Library Ref|TableNameOnly=Semiconductors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=Semiconductors$.Footprint Ref|TableNameOnly=Semiconductors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=Semiconductors$.Library Path|TableNameOnly=Semiconductors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=Semiconductors$.Footprint Path|TableNameOnly=Semiconductors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=T_Transformers$.Part Number|TableNameOnly=T_Transformers$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=T_Transformers$.Library Ref|TableNameOnly=T_Transformers$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=T_Transformers$.Footprint Ref|TableNameOnly=T_Transformers$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=T_Transformers$.Library Path|TableNameOnly=T_Transformers$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=T_Transformers$.Footprint Path|TableNameOnly=T_Transformers$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
